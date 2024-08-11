@@ -58,7 +58,7 @@ Docker Compose Configuration:
 The docker-compose.yml file was created to automate the setup of the CSV server with the necessary configurations:
 
 #change directory
-- ##cd part2
+- cd part2
 
        docker-compose up -d
 
