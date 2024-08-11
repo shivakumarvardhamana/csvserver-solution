@@ -9,8 +9,6 @@ The project is divided into three parts:
  - **The requiredfiles available in part-1 folder**
  - image: infracloudio/csvserver:latest
 
- **change directory** 
- - **cd part-1**
 
        docker run -d --name csvserver infracloudio/csvserver:latest
 
@@ -39,6 +37,9 @@ Setting Environment Variables:
 
 The application is accessible at http://localhost:9393, displaying the title with an orange border.
 
+**change directory** 
+ - **cd part-1**
+   
 - Files Overview:
   - gencsv.sh : the shell script to generate the inputFile
   - part-1-log: the file is contain the logs of docker container
@@ -100,7 +101,7 @@ To start the entire setup, run:
 **change directory** 
  - **cd part-3**
 
-      docker-compose up -d
+        docker-compose up -d
 
 To stop the services, run:
 
