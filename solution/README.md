@@ -4,7 +4,8 @@ This project demonstrates the deployment of a CSV server application using Docke
 Project Structure
 
 The project is divided into three parts:
-- **Part-1**: Running the CSV Server Container
+
+**Part-1**: Running the CSV Server Container
  - **The requiredfiles available in part-1 folder**
  - image: infracloudio/csvserver:latest
 
@@ -45,7 +46,7 @@ The application is accessible at http://localhost:9393, displaying the title wit
   - part-1-cmd: the cmd used to run the container with inputfile and enviroment variable
   - inputFile: the file containe the data generated with gencsv.sh shell script
 
-- **Part 2**: Docker Compose Setup
+**Part 2**: Docker Compose Setup
 - **The requiredfiles available in part-2 folder**
 
 
