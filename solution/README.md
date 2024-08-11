@@ -45,7 +45,7 @@ The application is accessible at http://localhost:9393, displaying the title wit
   - part-1-cmd: the cmd used to run the container with inputfile and enviroment variable
   - inputFile: the file containe the data generated with gencsv.sh shell script
 
-**Part 2**: Docker Compose Setup
+- ##**Part 2**: Docker Compose Setup
 - **The requiredfiles available in part-2 folder**
 
 
@@ -60,7 +60,7 @@ The docker-compose.yml file was created to automate the setup of the CSV server 
 #change directory
 - cd part2
 
-    docker-compose up -d
+       docker-compose up -d
 
 To stop the services, use:
 
@@ -94,7 +94,8 @@ To start the entire setup, run:
 
 #change directory
 - cd part-3
-    docker-compose up -d
+
+      docker-compose up -d
 
 To stop the services, run:
 
