@@ -9,7 +9,7 @@ The project is divided into three parts:
  - image: infracloudio/csvserver:latest
 
  #change directory 
- cd part-1
+ - cd part-1
 
        docker run -d --name csvserver infracloudio/csvserver:latest
 
@@ -58,7 +58,7 @@ Docker Compose Configuration:
 The docker-compose.yml file was created to automate the setup of the CSV server with the necessary configurations:
 
 #change directory
-cd part2
+- cd part2
 
     docker-compose up -d
 
@@ -93,7 +93,7 @@ Usage
 To start the entire setup, run:
 
 #change directory
-cd part-3
+- cd part-3
     docker-compose up -d
 
 To stop the services, run:
