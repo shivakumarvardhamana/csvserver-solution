@@ -9,8 +9,8 @@ The project is divided into three parts:
  - **The requiredfiles available in part-1 folder**
  - image: infracloudio/csvserver:latest
 
- #change directory 
- - cd part-1
+ **change directory** 
+ - **cd part-1**
 
        docker run -d --name csvserver infracloudio/csvserver:latest
 
@@ -60,8 +60,8 @@ An environment file (csvserver.env) was created to store variables required by t
 Docker Compose Configuration:
 The docker-compose.yml file was created to automate the setup of the CSV server with the necessary configurations:
 
-#change directory
-- cd part2
+**change directory** 
+ - **cd part-2**
 
        docker-compose up -d
 
@@ -97,8 +97,8 @@ Usage
 
 To start the entire setup, run:
 
-#change directory
-- cd part-3
+**change directory** 
+ - **cd part-3**
 
       docker-compose up -d
 
