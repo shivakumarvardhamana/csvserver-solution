@@ -29,8 +29,8 @@ Running the Container with the Input File:
 
     docker run -d --name csvserver -p 9393:9300 -v "$(pwd)/inputFile:/csvserver/inputdata" infracloudio/csvserver:latest
 
-The container is running successfully. 
-kill the container need to be add env variable
+- The container is running successfully. 
+- kill the container, need to be pass env variable
 
         docker run -d --name csvserver -p 9393:9300 -v "$(pwd)/inputFile:/csvserver/inputdata" -e CSVSERVER_BORDER=Orange infracloudio/csvserver:latest
 
