@@ -1,11 +1,11 @@
-CSVServer Assignment
+#CSVServer Assignment
 
 This project demonstrates the deployment of a CSV server application using Docker and Docker Compose, with added metrics monitoring via Prometheus.
 Project Structure
 
 The project is divided into three parts:
 
-# **Part-1**: Running the CSV Server Container
+## **Part-1**: Running the CSV Server Container
  - **The requiredfiles available in part-1 folder**
  - image: infracloudio/csvserver:latest
 
@@ -48,7 +48,7 @@ The application is accessible at http://localhost:9393, displaying the title wit
 
 
 
-# **Part 2**: Docker Compose Setup
+## **Part 2**: Docker Compose Setup
 - **The requiredfiles available in part-2 folder**
 
 
@@ -76,7 +76,7 @@ To stop the services, use:
 
 
 
-# **Part 3**: Adding Prometheus for Metrics Collection
+## **Part 3**: Adding Prometheus for Metrics Collection
 - **The requiredfiles available in part-3 folder**
   
 Prometheus was integrated to collect metrics from the CSV server.
