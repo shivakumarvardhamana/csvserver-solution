@@ -46,6 +46,8 @@ The application is accessible at http://localhost:9393, displaying the title wit
   - part-1-cmd: the cmd used to run the container with inputfile and enviroment variable
   - inputFile: the file containe the data generated with gencsv.sh shell script
 
+
+
 **Part 2**: Docker Compose Setup
 - **The requiredfiles available in part-2 folder**
 
@@ -71,6 +73,8 @@ To stop the services, use:
 - Files Overview:
   - csvserver.env : file to store the env variable need to pass in docker-compose file to read as file
   - docker-compose: the file contain all steps to create container with require details
+
+
 
 **Part 3**: Adding Prometheus for Metrics Collection
 - **The requiredfiles available in part-3 folder**
